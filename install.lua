@@ -3,7 +3,7 @@ local computer = computer or require("computer")
 
 local repo = "remy-eliot/eliot"
 local branch = "main"
-local target = "/home/"
+local target = "/./bin/"
 local folder = "eliot-packmang/"
 local single = "eliot.lua"
 
