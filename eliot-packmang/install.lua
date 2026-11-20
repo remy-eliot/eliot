@@ -11,7 +11,7 @@ end
 
 local repo = "remy-eliot/eliot-packages"
 local branch = "main"
-local base = "/home/packages/"
+local base = "/./bin/packages/"
 
 local netAddr = component.list("internet")()
 if not netAddr then
