@@ -1,6 +1,6 @@
 local args = {...}
 local cmd = args[1]
-local dir = "/home/eliot-packmang/"
+local dir = "/./bin/eliot-packmang/"
 
 if not cmd then
   cmd = "help"
