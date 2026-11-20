@@ -11,7 +11,7 @@ if pkg:find("/", 1, true) or pkg:find("\\", 1, true) or pkg:find("..", 1, true) 
   return
 end
 
-local base = "/home/packages/"
+local base = "/./bin/packages/"
 local path = base .. pkg .. "/main.lua"
 
 local fn, err = loadfile(path)
